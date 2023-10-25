@@ -2,15 +2,15 @@ import { INodeType, INodeTypeDescription } from 'n8n-workflow';
 
 export class NasaPics implements INodeType {
 	description: INodeTypeDescription = {
-        displayName: 'NASA Pics',
+        displayName: 'Discord+',
         name: 'NasaPics',
-        icon: 'file:nasapics.svg',
+        icon: 'file:discord.svg',
         group: ['transform'],
         version: 1,
         subtitle: '={{$parameter["operation"] + ": " + $parameter["resource"]}}',
         description: 'Get data from NASAs API',
         defaults: {
-            name: 'NASA Pics',
+            name: 'Discord+',
         },
         inputs: ['main'],
         outputs: ['main'],
